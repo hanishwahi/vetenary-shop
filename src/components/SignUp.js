@@ -15,7 +15,7 @@ function SignUp() {
       function handleSubmit(e) {
         e.preventDefault();
         localStorage.setItem("user", JSON.stringify(input));
-        if (input.email=="" && input.password=="") {
+        if (input.email==="" && input.password==="") {
              toast.error("fill details");   
         } 
         else {
